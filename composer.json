@@ -1,0 +1,43 @@
+{
+  "name": "printplanet/queue",
+  "description": "The Printplanet Queue package.",
+  "license": "MIT",
+  "homepage": "https://www.printplanet.de",
+  "support": {
+    "issues": "https://github.com/printplanet/framework/issues",
+    "source": "https://github.com/printplanet/framework"
+  },
+  "authors": [
+    {
+      "name": "Lutz Bicker",
+      "email": "bickerqprintplanet.de"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "illuminate/console": "5.6.*",
+    "printplanet/container": "5.6.*",
+    "printplanet/contracts": "5.6.*",
+    "symfony/debug": "~3.3",
+    "symfony/process": "~3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Printplanet\\Component\\Queue\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "5.3-dev"
+    }
+  },
+  "suggest": {
+    "aws/aws-sdk-php": "Required to use the SQS queue driver (~2.0).",
+    "illuminate/redis": "Required to use the Redis queue driver (5.6.*).",
+    "pda/pheanstalk": "Required to use the Beanstalk queue driver (~3.0)."
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
