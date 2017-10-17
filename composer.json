@@ -10,16 +10,18 @@
   "authors": [
     {
       "name": "Lutz Bicker",
-      "email": "bickerqprintplanet.de"
+      "email": "bicker@printplanet.de"
     }
   ],
   "require": {
     "php": ">=5.3",
-    "illuminate/console": "5.6.*",
-    "printplanet/container": "5.6.*",
-    "printplanet/contracts": "5.6.*",
-    "symfony/debug": "~3.3",
-    "symfony/process": "~3.3"
+    "symfony/console": "2.7.*",
+    "printplanet/container": "1.*",
+    "printplanet/contracts": "1.*",
+    "psr/simple-cache": "1.*",
+    "psr/cache": "1.*",
+    "symfony/debug": "~2.7.*",
+    "symfony/process": "~2.7.*"
   },
   "autoload": {
     "psr-4": {
@@ -28,7 +30,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "5.3-dev"
+      "dev-master": "1.0-dev"
     }
   },
   "suggest": {
