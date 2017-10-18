@@ -1,11 +1,11 @@
 <?php
 
-namespace PP\Component\Queue\Exception;
+namespace Printplanet\Component\Queue\Exception;
 
 /**
  * Class InvalidPayloadException
  *
- * @package PP\Component\Queue\Exceptions
+ * @package Printplanet\Component\Queue\Exceptions
  */
 class InvalidPayloadException extends \InvalidArgumentException
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace PP\Component\Queue\Job;
+namespace Printplanet\Component\Queue\Job;
 
 use Aws\Sqs\SqsClient;
-use PP\Component\Container\Container;
+use Printplanet\Component\Container\Container;
 
 /**
  * Class SqsJob
  *
- * @package PP\Component\Queue\Jobs
+ * @package Printplanet\Component\Queue\Jobs
  */
 class SqsJob extends Job implements JobsInterface
 {

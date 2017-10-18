@@ -1,15 +1,15 @@
 <?php
 
-namespace PP\Component\Queue\Util;
+namespace Printplanet\Component\Queue\Util;
 
-use PP\Component\Utils\Str;
+use Printplanet\Components\Support\Str;
 use Symfony\Component\Filesystem\Exception\IOException;
 use Symfony\Component\Filesystem\Filesystem;
 
 /**
  * Class FileBasedSystemSwitch
  *
- * @package PP\Component\Queue\Util
+ * @package Printplanet\Component\Queue\Util
  */
 class FileSystemSwitch implements SwitchInterface
 {

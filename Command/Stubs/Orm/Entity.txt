@@ -3,7 +3,7 @@
 namespace {{namespace}};
 
 use Doctrine\ORM\Mapping as ORM;
-use PP\Component\Queue\Entity\DatabaseQueueEntityInterface as EntityInterface;
+use Printplanet\Component\Queue\Entity\DatabaseQueueEntityInterface as EntityInterface;
 
 /**
  * Class {{className}}

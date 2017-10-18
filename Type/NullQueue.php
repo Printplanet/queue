@@ -1,11 +1,11 @@
 <?php
 
-namespace PP\Component\Queue\Type;
+namespace Printplanet\Component\Queue\Type;
 
 /**
  * Class NullQueue
  *
- * @package PP\Component\Queue\Types
+ * @package Printplanet\Component\Queue\Types
  */
 class NullQueue extends Queue implements QueueInterface
 {

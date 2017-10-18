@@ -1,19 +1,19 @@
 <?php
 
-namespace PP\Component\Queue\Type;
+namespace Printplanet\Component\Queue\Type;
 
 
-use PP\Component\Queue\Job\FailingJob;
-use PP\Component\Queue\Job\SyncJob;
-use PP\Component\Queue\Job\JobsInterface;
-use PP\Component\Events\Dispatcher;
-use PP\Component\Queue\Events;
+use Printplanet\Component\Queue\Job\FailingJob;
+use Printplanet\Component\Queue\Job\SyncJob;
+use Printplanet\Component\Queue\Job\JobsInterface;
+use Printplanet\Component\Events\Dispatcher;
+use Printplanet\Component\Queue\Events;
 use Symfony\Component\Debug\Exception\FatalThrowableError;
 
 /**
  * Class SyncQueue
  *
- * @package PP\Component\Queue\Type
+ * @package Printplanet\Component\Queue\Type
  */
 class SyncQueue extends Queue implements QueueInterface
 {

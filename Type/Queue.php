@@ -1,16 +1,16 @@
 <?php
 
-namespace PP\Component\Queue\Type;
+namespace Printplanet\Component\Queue\Type;
 
 use DateTimeInterface;
-use PP\Component\Utils\Encrypter;
-use PP\Component\Queue\Exception\InvalidPayloadException;
-use PP\Component\Container\Container as Container;
+use Printplanet\Component\Support\Encrypter;
+use Printplanet\Component\Queue\Exception\InvalidPayloadException;
+use Printplanet\Component\Container\Container as Container;
 
 /**
  * Class Queue
  *
- * @package PP\Component\Queue\Types
+ * @package Printplanet\Component\Queue\Types
  */
 abstract class Queue
 {
@@ -153,7 +153,7 @@ abstract class Queue
     {
         return array(
             'displayName' => $this->getDisplayName($job),
-            'job' => 'PP\Component\Queue\CallQueuedHandler@call',
+            'job' => 'Printplanet\Component\Queue\CallQueuedHandler@call',
             'maxTries' => $this->getMaxTries($job),
             'timeout' => $this->getTimeout($job),
             'timeoutAt' => $this->getJobExpiration($job),

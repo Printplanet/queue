@@ -12,12 +12,12 @@
 // The above copyright notice and this permission notice shall be included in all copies or substantial portions
 // of the Software.
 
-namespace PP\Component\Queue\Util;
+namespace Printplanet\Component\Queue\Util;
 
 /**
  * Class LuaScripts
  *
- * @package PP\Component\Queue\Util
+ * @package Printplanet\Component\Queue\Util
  */
 class LuaScripts
 {

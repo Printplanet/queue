@@ -1,6 +1,6 @@
 <?php
 
-namespace PP\Component\Queue\Events;
+namespace Printplanet\Component\Queue\Events;
 
 class WorkerStopping
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace PP\Component\Queue\Job;
+namespace Printplanet\Component\Queue\Job;
 
-use PP\Utils\Arr;
-use PP\Component\Queue\Type\RedisQueue;
-use PP\Component\Container\Container;
+use Printplanet\Components\Support\Arr;
+use Printplanet\Component\Queue\Type\RedisQueue;
+use Printplanet\Component\Container\Container;
 
 /**
  * Class RedisJob
  *
- * @package PP\Component\Queue\Jobs
+ * @package Printplanet\Component\Queue\Jobs
  */
 class RedisJob extends Job implements JobsInterface
 {

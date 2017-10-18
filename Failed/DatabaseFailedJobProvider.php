@@ -1,6 +1,6 @@
 <?php
 
-namespace PP\Component\Queue\Failed;
+namespace Printplanet\Component\Queue\Failed;
 
 use Illuminate\Support\Carbon;
 use Illuminate\Database\ConnectionResolverInterface;

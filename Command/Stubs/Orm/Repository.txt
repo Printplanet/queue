@@ -4,8 +4,8 @@ namespace {{namespace}};
 
 use Doctrine\DBAL\LockMode;
 use Doctrine\ORM\EntityRepository;
-use PP\Component\Queue\Entity\DatabaseQueueEntityInterface as EntityInterface;
-use PP\Component\Queue\Repository\DatabaseQueueRepositoryInterface as RepositoryInterface;
+use Printplanet\Component\Queue\Entity\DatabaseQueueEntityInterface as EntityInterface;
+use Printplanet\Component\Queue\Repository\DatabaseQueueRepositoryInterface as RepositoryInterface;
 
 /**
  * Class {{className}}Repository

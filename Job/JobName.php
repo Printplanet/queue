@@ -1,8 +1,8 @@
 <?php
 
-namespace PP\Component\Queue\Job;
+namespace Printplanet\Component\Queue\Job;
 
-use PP\Component\Utils\Str;
+use Printplanet\Components\Support\Str;
 
 class JobName
 {

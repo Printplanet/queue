@@ -1,18 +1,18 @@
 <?php
 
-namespace PP\Component\Queue;
+namespace Printplanet\Component\Queue;
 
 
-use PP\Utils\Arr;
-use PP\Component\Queue\Connector\ConnectorInterface;
-use PP\Component\Queue\Type\QueueInterface;
-use PP\Component\Queue\Util\SwitchInterface;
-use PP\Component\Container\Container;
+use Printplanet\Components\Support\Arr;
+use Printplanet\Component\Queue\Connector\ConnectorInterface;
+use Printplanet\Component\Queue\Type\QueueInterface;
+use Printplanet\Component\Queue\Util\SwitchInterface;
+use Printplanet\Component\Container\Container;
 
 /**
  * Class Manager
  *
- * @package PP\Component\Queue
+ * @package Printplanet\Component\Queue
  */
 class Manager
 {

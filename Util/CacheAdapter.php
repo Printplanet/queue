@@ -1,6 +1,6 @@
 <?php
 
-namespace PP\Component\Queue\Util;
+namespace Printplanet\Component\Queue\Util;
 
 use Doctrine\Common\Cache\CacheProvider;
 use Psr\Cache\CacheItemPoolInterface;
@@ -10,7 +10,7 @@ use Psr\SimpleCache\CacheInterface;
 /**
  * Class CacheAdapter for converting cache library PSR-16 compatible.
  *
- * @package PP\Component\Queue\Util
+ * @package Printplanet\Component\Queue\Util
  */
 class CacheAdapter implements CacheInterface
 {

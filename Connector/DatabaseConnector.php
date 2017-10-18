@@ -1,17 +1,17 @@
 <?php
 
-namespace PP\Component\Queue\Connector;
+namespace Printplanet\Component\Queue\Connector;
 
-use PP\Utils\Arr;
-use PP\Component\Queue\Repository\DatabaseQueueRepositoryInterface;
-use PP\Component\Queue\Type\DatabaseQueue;
+use Printplanet\Components\Support\Arr;
+use Printplanet\Component\Queue\Repository\DatabaseQueueRepositoryInterface;
+use Printplanet\Component\Queue\Type\DatabaseQueue;
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
-use PP\Component\Container\Container;
+use Printplanet\Component\Container\Container;
 
 /**
  * Class DatabaseConnector
  *
- * @package PP\Component\Queue\Connectors
+ * @package Printplanet\Component\Queue\Connectors
  */
 class DatabaseConnector implements ConnectorInterface
 {

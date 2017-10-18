@@ -1,11 +1,11 @@
 <?php
 
-namespace PP\Component\Queue\Job;
+namespace Printplanet\Component\Queue\Job;
 
-use PP\Component\Queue\Exception\ManuallyFailedException;
-use PP\Component\Container\Container;
-use PP\Component\Queue\Events\JobFailed;
-use PP\Component\Events\Dispatcher;
+use Printplanet\Component\Queue\Exception\ManuallyFailedException;
+use Printplanet\Component\Container\Container;
+use Printplanet\Component\Queue\Events\JobFailed;
+use Printplanet\Component\Events\Dispatcher;
 
 class FailingJob
 {

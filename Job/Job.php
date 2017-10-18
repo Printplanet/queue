@@ -1,14 +1,14 @@
 <?php
 
-namespace PP\Component\Queue\Job;
+namespace Printplanet\Component\Queue\Job;
 
-use PP\Utils\Arr;
-use PP\Component\Container\Container;
+use Printplanet\Components\Support\Arr;
+use Printplanet\Component\Container\Container;
 
 /**
  * Class Job
  *
- * @package PP\Component\Queue\Jobs
+ * @package Printplanet\Component\Queue\Jobs
  */
 abstract class Job
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace PP\Component\Queue\Job;
+namespace Printplanet\Component\Queue\Job;
 
 use Pheanstalk\Pheanstalk;
 use Pheanstalk\Job as PheanstalkJob;
-use PP\Component\Container\Container;
+use Printplanet\Component\Container\Container;
 
 /**
  * Class BeanstalkdJob
  *
- * @package PP\Component\Queue\Jobs
+ * @package Printplanet\Component\Queue\Jobs
  */
 class BeanstalkdJob extends Job implements JobsInterface
 {

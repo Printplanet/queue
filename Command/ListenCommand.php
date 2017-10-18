@@ -1,9 +1,9 @@
 <?php
 
-namespace PP\Component\Queue\Command;
+namespace Printplanet\Component\Queue\Command;
 
-use PP\Component\Queue\Listener;
-use PP\Component\Queue\ListenerOptions;
+use Printplanet\Component\Queue\Listener;
+use Printplanet\Component\Queue\ListenerOptions;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
@@ -13,7 +13,7 @@ use Symfony\Component\Console\Input\InputInterface;
 /**
  * Class ListenCommand
  *
- * @package PP\Component\Queue\Command
+ * @package Printplanet\Component\Queue\Command
  */
 class ListenCommand extends Command
 {

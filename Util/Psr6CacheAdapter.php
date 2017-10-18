@@ -4,9 +4,9 @@
  * Adapted from https://github.com/symfony/symfony/blob/master/src/Symfony/Component/Cache/Simple/Psr6Cache.php
  * Part of Symfony Cache component.
  */
-namespace PP\Component\Queue\Util;
+namespace Printplanet\Component\Queue\Util;
 
-use PP\Component\Queue\Exception\InvalidArgumentException;
+use Printplanet\Component\Queue\Exception\InvalidArgumentException;
 use Psr\Cache\CacheItemPoolInterface;
 use Psr\SimpleCache\CacheInterface;
 use Psr\SimpleCache\CacheException as SimpleCacheException;
@@ -15,7 +15,7 @@ use Psr\Cache\CacheException as Psr6CacheException;
 /**
  * Class Psr6Cache
  *
- * @package PP\Component\Queue\Util
+ * @package Printplanet\Component\Queue\Util
  */
 class Psr6CacheAdapter implements CacheInterface
 {

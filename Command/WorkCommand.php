@@ -1,16 +1,16 @@
 <?php
 
-namespace PP\Component\Queue\Command;
+namespace Printplanet\Component\Queue\Command;
 
-use PP\Component\Queue\Events\JobFailed;
-use PP\Component\Queue\Events\JobProcessed;
-use PP\Component\Queue\Events\JobProcessing;
-use PP\Component\Queue\Job\Job;
-use PP\Component\Queue\Manager;
-use PP\Component\Queue\Repository\FailedJobRepositoryInterface;
-use PP\Component\Queue\Util\SwitchInterface;
-use PP\Component\Queue\Worker;
-use PP\Component\Queue\WorkerOptions;
+use Printplanet\Component\Queue\Events\JobFailed;
+use Printplanet\Component\Queue\Events\JobProcessed;
+use Printplanet\Component\Queue\Events\JobProcessing;
+use Printplanet\Component\Queue\Job\Job;
+use Printplanet\Component\Queue\Manager;
+use Printplanet\Component\Queue\Repository\FailedJobRepositoryInterface;
+use Printplanet\Component\Queue\Util\SwitchInterface;
+use Printplanet\Component\Queue\Worker;
+use Printplanet\Component\Queue\WorkerOptions;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
@@ -18,7 +18,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 use Psr\SimpleCache\CacheInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
-use PP\Component\Events\Dispatcher;
+use Printplanet\Component\Events\Dispatcher;
 
 /**
  * Class WorkCommand which implements the logic of idb-queue:work command. This command executes the worker to do the job.

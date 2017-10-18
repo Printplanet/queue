@@ -1,6 +1,6 @@
 <?php
 
-namespace PP\Component\Queue;
+namespace Printplanet\Component\Queue;
 
 class WorkerOptions
 {

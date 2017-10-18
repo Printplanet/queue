@@ -1,23 +1,23 @@
 <?php
 
-namespace PP\Component\Queue;
+namespace Printplanet\Component\Queue;
 
-use PP\Component\Queue\Events\Looping;
-use PP\Component\Utils\Str;
-use PP\Component\Events\Dispatcher;
 use Psr\SimpleCache\CacheInterface as Cache;
-use PP\Component\Queue\Events\JobFailed;
-use PP\Component\Queue\Exception\ErrorHandler;
-use PP\Component\Queue\Exception\ManuallyFailedException;
-use PP\Component\Queue\Exception\MaxAttemptsExceededException;
-use PP\Component\Queue\Job\JobsInterface;
-use PP\Component\Queue\Type\QueueInterface;
+use Printplanet\Components\Support\Str;
+use Printplanet\Component\Events\Dispatcher;
+use Printplanet\Component\Queue\Events\Looping;
+use Printplanet\Component\Queue\Events\JobFailed;
+use Printplanet\Component\Queue\Exception\ErrorHandler;
+use Printplanet\Component\Queue\Exception\ManuallyFailedException;
+use Printplanet\Component\Queue\Exception\MaxAttemptsExceededException;
+use Printplanet\Component\Queue\Job\JobsInterface;
+use Printplanet\Component\Queue\Type\QueueInterface;
 use Symfony\Component\Debug\Exception\FatalThrowableError;
 
 /**
  * Class Worker
  *
- * @package PP\Component\Queue
+ * @package Printplanet\Component\Queue
  */
 class Worker
 {

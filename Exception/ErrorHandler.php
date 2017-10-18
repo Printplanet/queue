@@ -1,13 +1,13 @@
 <?php
 
-namespace PP\Component\Queue\Exception;
+namespace Printplanet\Component\Queue\Exception;
 
 use Psr\Log\LoggerInterface;
 
 /**
  * Class ErrorHandler
  *
- * @package PP\Component\Queue\Exceptions
+ * @package Printplanet\Component\Queue\Exceptions
  */
 class ErrorHandler
 {

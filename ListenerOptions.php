@@ -1,11 +1,11 @@
 <?php
 
-namespace PP\Component\Queue;
+namespace Printplanet\Component\Queue;
 
 /**
  * Class ListenerOptions
  *
- * @package PP\Component\Queue
+ * @package Printplanet\Component\Queue
  */
 class ListenerOptions extends WorkerOptions
 {

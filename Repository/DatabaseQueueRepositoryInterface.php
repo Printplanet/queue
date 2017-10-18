@@ -1,13 +1,13 @@
 <?php
 
-namespace PP\Component\Queue\Repository;
+namespace Printplanet\Component\Queue\Repository;
 
-use PP\Component\Queue\Entity\DatabaseQueueEntityInterface;
+use Printplanet\Component\Queue\Entity\DatabaseQueueEntityInterface;
 
 /**
  * Interface DatabaseQueueInterface
  *
- * @package PP\Component\Queue\Repository
+ * @package Printplanet\Component\Queue\Repository
  */
 interface DatabaseQueueRepositoryInterface
 {

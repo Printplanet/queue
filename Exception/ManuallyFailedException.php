@@ -1,11 +1,11 @@
 <?php
 
-namespace PP\Component\Queue\Exception;
+namespace Printplanet\Component\Queue\Exception;
 
 /**
  * Class ManuallyFailedException
  *
- * @package PP\Component\Queue\Exception
+ * @package Printplanet\Component\Queue\Exception
  */
 class ManuallyFailedException extends \RuntimeException
 {
