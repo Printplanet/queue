@@ -2,7 +2,7 @@
 
 namespace Printplanet\Component\Queue\Connector;
 
-use Printplanet\Components\Support\Arr;
+use Printplanet\Component\Support\Arr;
 use Printplanet\Component\Queue\Exception\BadConnectionException;
 use Printplanet\Component\Queue\Type\RedisQueue;
 use Predis\Client;

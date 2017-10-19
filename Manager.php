@@ -3,7 +3,7 @@
 namespace Printplanet\Component\Queue;
 
 
-use Printplanet\Components\Support\Arr;
+use Printplanet\Component\Support\Arr;
 use Printplanet\Component\Queue\Connector\ConnectorInterface;
 use Printplanet\Component\Queue\Type\QueueInterface;
 use Printplanet\Component\Queue\Util\SwitchInterface;

@@ -2,7 +2,7 @@
 
 namespace Printplanet\Component\Queue\Job;
 
-use Printplanet\Components\Support\Arr;
+use Printplanet\Component\Support\Arr;
 use Printplanet\Component\Queue\Type\RedisQueue;
 use Printplanet\Component\Container\Container;
 

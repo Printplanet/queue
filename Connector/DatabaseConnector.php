@@ -2,7 +2,7 @@
 
 namespace Printplanet\Component\Queue\Connector;
 
-use Printplanet\Components\Support\Arr;
+use Printplanet\Component\Support\Arr;
 use Printplanet\Component\Queue\Repository\DatabaseQueueRepositoryInterface;
 use Printplanet\Component\Queue\Type\DatabaseQueue;
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;

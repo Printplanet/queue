@@ -3,7 +3,7 @@
 namespace Printplanet\Component\Queue;
 
 use Psr\SimpleCache\CacheInterface as Cache;
-use Printplanet\Components\Support\Str;
+use Printplanet\Component\Support\Str;
 use Printplanet\Component\Events\Dispatcher;
 use Printplanet\Component\Queue\Events\Looping;
 use Printplanet\Component\Queue\Events\JobFailed;

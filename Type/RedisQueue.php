@@ -2,8 +2,8 @@
 
 namespace Printplanet\Component\Queue\Type;
 
-use Printplanet\Components\Support\Arr;
-use Printplanet\Components\Support\Str;
+use Printplanet\Component\Support\Arr;
+use Printplanet\Component\Support\Str;
 use Printplanet\Component\Queue\Job\JobsInterface;
 use Printplanet\Component\Queue\Job\RedisJob;
 use Printplanet\Component\Queue\Util\LuaScripts;

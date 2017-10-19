@@ -2,7 +2,7 @@
 
 namespace Printplanet\Component\Queue\Command;
 
-use Printplanet\Components\Support\Str;
+use Printplanet\Component\Support\Str;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

@@ -2,7 +2,7 @@
 
 namespace Printplanet\Component\Queue\Job;
 
-use Printplanet\Components\Support\Str;
+use Printplanet\Component\Support\Str;
 
 class JobName
 {

@@ -2,7 +2,7 @@
 
 namespace Printplanet\Component\Queue\Type;
 
-use Printplanet\Components\Support\Str\Collection;
+use Printplanet\Component\Support\Collection;
 use Printplanet\Component\Queue\Entity\DatabaseQueueEntityInterface;
 use Printplanet\Component\Queue\Job\DatabaseJob;
 use Printplanet\Component\Queue\Job\JobsInterface;

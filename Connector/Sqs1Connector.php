@@ -2,7 +2,7 @@
 
 namespace Printplanet\Component\Queue\Connector;
 
-use Printplanet\Components\Support\Arr;
+use Printplanet\Component\Support\Arr;
 use Printplanet\Component\Queue\Type\Sqs1Queue;
 use Printplanet\Component\Container\Container;
 use Aws\Sqs\SqsClient;

@@ -6,7 +6,7 @@ use Printplanet\Component\Queue\Type\BeanstalkdQueue as Queue;
 use Pheanstalk\Pheanstalk;
 use Pheanstalk\Connection;
 use Pheanstalk\PheanstalkInterface;
-use Printplanet\Components\Support\Arr;
+use Printplanet\Component\Support\Arr;
 use Printplanet\Component\Container\Container;
 
 /**

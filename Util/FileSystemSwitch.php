@@ -2,7 +2,7 @@
 
 namespace Printplanet\Component\Queue\Util;
 
-use Printplanet\Components\Support\Str;
+use Printplanet\Component\Support\Str;
 use Symfony\Component\Filesystem\Exception\IOException;
 use Symfony\Component\Filesystem\Filesystem;
 
