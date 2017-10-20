@@ -75,4 +75,30 @@ abstract class InteractsWithQueueJob
 
         return $this;
     }
+
+    /**
+     * Dispatch the job with the given arguments.
+     *
+     * @return Printplanet\Component\Queue\PendingDispatch
+     */
+    public static function dispatch()
+    {
+        $reflect  = new \ReflectionClass(get_called_class());
+        $job = $reflect->newInstanceArgs(func_get_args());
+
+        return new PendingDispatch($job);
+    }
+
+
+    /**
+     * Set the jobs that should run if this job is successful.
+     *
+     * @param  array  $chain
+     * @return  Printplanet\Component\Queue\PendingChain
+     */
+    public static function withChain($chain)
+    {
+        return new PendingChain(get_called_class(), $chain);
+    }
+
 }
