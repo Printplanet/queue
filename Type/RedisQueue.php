@@ -1,18 +1,18 @@
 <?php
 
-namespace PP\Component\Queue\Type;
+namespace Printplanet\Component\Queue\Type;
 
-use PP\Utils\Arr;
-use PP\Component\Utils\Str;
-use PP\Component\Queue\Job\JobsInterface;
-use PP\Component\Queue\Job\RedisJob;
-use PP\Component\Queue\Util\LuaScripts;
+use Printplanet\Component\Support\Arr;
+use Printplanet\Component\Support\Str;
+use Printplanet\Component\Queue\Job\JobsInterface;
+use Printplanet\Component\Queue\Job\RedisJob;
+use Printplanet\Component\Queue\Util\LuaScripts;
 use Predis\Client;
 
 /**
  * Class RedisQueue
  *
- * @package PP\Component\Queue\Types
+ * @package Printplanet\Component\Queue\Types
  */
 class RedisQueue extends Queue implements QueueInterface
 {

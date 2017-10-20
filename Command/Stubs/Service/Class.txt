@@ -2,8 +2,8 @@
 
 namespace {{namespace}};
 
-use PP\Component\Queue\ShouldQueue;
-use PP\Component\Queue\Job\JobsInterface;
+use Printplanet\Component\Queue\ShouldQueue;
+use Printplanet\Component\Queue\Job\JobsInterface;
 
 /**
  * Class {{className}}

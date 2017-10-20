@@ -1,11 +1,11 @@
 <?php
 
-namespace PP\Component\Queue;
+namespace Printplanet\Component\Queue;
 
 /**
  * Class QueueErrorInterface
  *
- * @package PP\Component\Queue
+ * @package Printplanet\Component\Queue
  */
 interface QueueErrorInterface
 {

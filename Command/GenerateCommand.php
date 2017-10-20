@@ -1,8 +1,8 @@
 <?php
 
-namespace PP\Component\Queue\Command;
+namespace Printplanet\Component\Queue\Command;
 
-use PP\Component\Utils\Str;
+use Printplanet\Component\Support\Str;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -15,7 +15,7 @@ use Symfony\Component\HttpKernel\KernelInterface;
 /**
  * Class GenerateCommand
  *
- * @package PP\Component\Queue\Command
+ * @package Printplanet\Component\Queue\Command
  */
 class GenerateCommand extends Command
 {

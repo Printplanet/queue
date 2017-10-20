@@ -1,16 +1,16 @@
 <?php
 
-namespace PP\Component\Queue\Connector;
+namespace Printplanet\Component\Queue\Connector;
 
-use PP\Utils\Arr;
-use PP\Component\Queue\Type\SqsQueue;
-use PP\Component\Container\Container;
+use Printplanet\Component\Support\Arr;
+use Printplanet\Component\Queue\Type\SqsQueue;
+use Printplanet\Component\Container\Container;
 use Aws\Sqs\SqsClient;
 
 /**
  * Class SqsConnector
  *
- * @package PP\Component\Queue\Connector
+ * @package Printplanet\Component\Queue\Connector
  */
 class SqsConnector implements ConnectorInterface
 {

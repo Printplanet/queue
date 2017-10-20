@@ -1,14 +1,14 @@
 <?php
 
-namespace PP\Component\Queue\Connector;
+namespace Printplanet\Component\Queue\Connector;
 
-use PP\Component\Queue\Type\NullQueue;
-use PP\Component\Container\Container;
+use Printplanet\Component\Queue\Type\NullQueue;
+use Printplanet\Component\Container\Container;
 
 /**
  * Class NullConnector
  *
- * @package PP\Component\Queue\Connectors
+ * @package Printplanet\Component\Queue\Connectors
  */
 class NullConnector implements ConnectorInterface
 {

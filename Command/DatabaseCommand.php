@@ -1,6 +1,6 @@
 <?php
 
-namespace PP\Component\Queue\Command;
+namespace Printplanet\Component\Queue\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -13,7 +13,7 @@ use Symfony\Component\Filesystem\Filesystem;
 /**
  * Class DatabaseCommand
  *
- * @package PP\Component\Queue\Command
+ * @package Printplanet\Component\Queue\Command
  */
 class DatabaseCommand extends Command
 {

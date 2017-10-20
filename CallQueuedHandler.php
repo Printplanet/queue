@@ -1,12 +1,12 @@
 <?php
 
-namespace PP\Component\Queue;
+namespace Printplanet\Component\Queue;
 
 
-use PP\Component\Queue\Job\FailingJob;
-use PP\Component\Queue\Job\JobsInterface as Job;
-use PP\Component\Bus\Dispatcher;
-use PP\Component\Queue\Job\JobsInterface;
+use Printplanet\Component\Queue\Job\FailingJob;
+use Printplanet\Component\Queue\Job\JobsInterface as Job;
+use Printplanet\Component\Bus\Dispatcher;
+use Printplanet\Component\Queue\Job\JobsInterface;
 
 class CallQueuedHandler
 {

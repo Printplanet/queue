@@ -1,18 +1,18 @@
 <?php
 
-namespace PP\Component\Queue\Connector;
+namespace Printplanet\Component\Queue\Connector;
 
-use PP\Component\Queue\Type\BeanstalkdQueue as Queue;
+use Printplanet\Component\Queue\Type\BeanstalkdQueue as Queue;
 use Pheanstalk\Pheanstalk;
 use Pheanstalk\Connection;
 use Pheanstalk\PheanstalkInterface;
-use PP\Utils\Arr;
-use PP\Component\Container\Container;
+use Printplanet\Component\Support\Arr;
+use Printplanet\Component\Container\Container;
 
 /**
  * Class BeanstalkdConnector
  *
- * @package PP\Component\Queue\Connector
+ * @package Printplanet\Component\Queue\Connector
  */
 class BeanstalkdConnector implements ConnectorInterface
 {

@@ -18,10 +18,14 @@
     "symfony/console": "2.7.*",
     "printplanet/container": "1.*",
     "printplanet/contracts": "1.*",
+    "printplanet/support": "1.*",
+    "printplanet/bus": "1.*",
+    "printplanet/events": "1.*",
     "psr/simple-cache": "1.*",
     "psr/cache": "1.*",
-    "symfony/debug": "~2.7.*",
-    "symfony/process": "~2.7.*"
+    "symfony/debug": "2.7.*",
+    "symfony/filesystem": "2.7.*",
+    "symfony/process": "2.7.*"
   },
   "autoload": {
     "psr-4": {

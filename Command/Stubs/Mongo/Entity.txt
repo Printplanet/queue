@@ -3,7 +3,7 @@
 namespace {{namespace}};
 
 use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
-use PP\Component\Queue\Entity\DatabaseQueueEntityInterface as EntityInterface;
+use Printplanet\Component\Queue\Entity\DatabaseQueueEntityInterface as EntityInterface;
 
 /**
  * Class {{className}}

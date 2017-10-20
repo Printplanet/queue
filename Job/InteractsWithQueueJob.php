@@ -1,12 +1,12 @@
 <?php
 
-namespace PP\Component\Queue\Job;
+namespace Printplanet\Component\Queue\Job;
 
 
 /**
  * Class InteractsWithQueueJob
  *
- * @package PP\Component\Queue\Jobs
+ * @package Printplanet\Component\Queue\Jobs
  */
 abstract class InteractsWithQueueJob
 {

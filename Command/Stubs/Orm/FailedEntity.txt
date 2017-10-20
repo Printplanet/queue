@@ -2,7 +2,7 @@
 
 namespace {{namespace}};
 
-use PP\Component\Queue\Entity\FailedJobEntityInterface as EntityInterface;
+use Printplanet\Component\Queue\Entity\FailedJobEntityInterface as EntityInterface;
 use Doctrine\ORM\Mapping as ORM;
 
 /**

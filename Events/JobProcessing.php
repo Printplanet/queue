@@ -1,8 +1,8 @@
 <?php
 
-namespace PP\Component\Queue\Events;
+namespace Printplanet\Component\Queue\Events;
 
-use PP\Component\Queue\Job\JobsInterface;
+use Printplanet\Component\Queue\Job\JobsInterface;
 
 class JobProcessing
 {

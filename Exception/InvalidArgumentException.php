@@ -1,6 +1,6 @@
 <?php
 
-namespace PP\Component\Queue\Exception;
+namespace Printplanet\Component\Queue\Exception;
 
 use Psr\Cache\InvalidArgumentException as Psr6CacheInterface;
 use Psr\SimpleCache\InvalidArgumentException as SimpleCacheInterface;
@@ -8,7 +8,7 @@ use Psr\SimpleCache\InvalidArgumentException as SimpleCacheInterface;
 /**
  * Class InvalidArgumentException
  *
- * @package PP\Component\Queue\Exception
+ * @package Printplanet\Component\Queue\Exception
  */
 class InvalidArgumentException extends \InvalidArgumentException implements Psr6CacheInterface, SimpleCacheInterface
 {

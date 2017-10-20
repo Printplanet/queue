@@ -1,11 +1,11 @@
 <?php
 
-namespace PP\Component\Queue\Exception;
+namespace Printplanet\Component\Queue\Exception;
 
 /**
  * Class BadConnectionException
  *
- * @package PP\Component\Queue\Exception
+ * @package Printplanet\Component\Queue\Exception
  */
 class BadConnectionException extends \Exception
 {

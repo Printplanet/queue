@@ -1,6 +1,6 @@
 <?php
 
-namespace PP\Component\Queue;
+namespace Printplanet\Component\Queue;
 
 use Symfony\Component\Process\Process;
 use Symfony\Component\Process\ProcessUtils;
@@ -9,7 +9,7 @@ use Symfony\Component\Process\PhpExecutableFinder;
 /**
  * Class Listener
  *
- * @package PP\Component\Queue
+ * @package Printplanet\Component\Queue
  */
 class Listener
 {

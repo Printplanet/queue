@@ -1,15 +1,15 @@
 <?php
 
-namespace PP\Component\Queue\Util;
+namespace Printplanet\Component\Queue\Util;
 
 use Doctrine\Common\Cache\CacheProvider;
-use PP\Component\Queue\Exception\InvalidArgumentException;
+use Printplanet\Component\Queue\Exception\InvalidArgumentException;
 use Psr\SimpleCache\CacheInterface;
 
 /**
  * Class DoctrineCacheAdapter
  *
- * @package PP\Component\Queue\Util
+ * @package Printplanet\Component\Queue\Util
  */
 class DoctrineCacheAdapter implements CacheInterface
 {

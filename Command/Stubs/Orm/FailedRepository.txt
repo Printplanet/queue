@@ -2,8 +2,8 @@
 
 namespace {{namespace}};
 
-use PP\Component\Queue\Entity\FailedJobEntityInterface as EntityInterface;
-use PP\Component\Queue\Repository\FailedJobRepositoryInterface as RepositoryInterface;
+use Printplanet\Component\Queue\Entity\FailedJobEntityInterface as EntityInterface;
+use Printplanet\Component\Queue\Repository\FailedJobRepositoryInterface as RepositoryInterface;
 use Doctrine\ORM\EntityRepository;
 
 /**

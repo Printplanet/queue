@@ -1,11 +1,11 @@
 <?php
 
-namespace PP\Component\Queue;
+namespace Printplanet\Component\Queue;
 
 /**
  * Class ShouldQueue
  *
- * @package PP\Component\Queue
+ * @package Printplanet\Component\Queue
  */
 interface ShouldQueue
 {

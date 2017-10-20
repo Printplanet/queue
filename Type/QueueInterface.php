@@ -1,13 +1,13 @@
 <?php
 
-namespace PP\Component\Queue\Type;
+namespace Printplanet\Component\Queue\Type;
 
-use PP\Component\Queue\Job\JobsInterface;
+use Printplanet\Component\Queue\Job\JobsInterface;
 
 /**
  * Interface QueueInterface
  *
- * @package PP\Component\Queue\Types
+ * @package Printplanet\Component\Queue\Types
  */
 interface QueueInterface
 {

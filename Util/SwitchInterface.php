@@ -1,13 +1,13 @@
 <?php
 
-namespace PP\Component\Queue\Util;
+namespace Printplanet\Component\Queue\Util;
 
 use Symfony\Component\Filesystem\Exception\IOException;
 
 /**
  * Interface SwitchInterface
  *
- * @package PP\Component\Queue\Util
+ * @package Printplanet\Component\Queue\Util
  */
 interface SwitchInterface
 {

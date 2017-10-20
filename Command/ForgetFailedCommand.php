@@ -1,9 +1,9 @@
 <?php
 
-namespace PP\Component\Queue\Command;
+namespace Printplanet\Component\Queue\Command;
 
 use Monolog\Logger;
-use PP\Component\Queue\Repository\FailedJobRepositoryInterface;
+use Printplanet\Component\Queue\Repository\FailedJobRepositoryInterface;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -12,7 +12,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 /**
  * Class ForgetFailedCommand
  *
- * @package PP\Component\Queue\Command
+ * @package Printplanet\Component\Queue\Command
  */
 class ForgetFailedCommand extends Command
 {

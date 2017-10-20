@@ -1,17 +1,17 @@
 <?php
 
-namespace PP\Component\Queue\Connector;
+namespace Printplanet\Component\Queue\Connector;
 
-use PP\Utils\Arr;
-use PP\Component\Queue\Exception\BadConnectionException;
-use PP\Component\Queue\Type\RedisQueue;
+use Printplanet\Component\Support\Arr;
+use Printplanet\Component\Queue\Exception\BadConnectionException;
+use Printplanet\Component\Queue\Type\RedisQueue;
 use Predis\Client;
-use PP\Component\Container\Container;
+use Printplanet\Component\Container\Container;
 
 /**
  * Class RedisConnector
  *
- * @package PP\Component\Queue\Connectors
+ * @package Printplanet\Component\Queue\Connectors
  */
 class RedisConnector implements ConnectorInterface
 {

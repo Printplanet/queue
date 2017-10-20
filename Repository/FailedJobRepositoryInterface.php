@@ -1,13 +1,13 @@
 <?php
 
-namespace PP\Component\Queue\Repository;
+namespace Printplanet\Component\Queue\Repository;
 
-use PP\Component\Queue\Entity\FailedJobEntityInterface;
+use Printplanet\Component\Queue\Entity\FailedJobEntityInterface;
 
 /**
  * Interface FailedJobLoggerInterface
  *
- * @package PP\Component\Queue\Utils
+ * @package Printplanet\Component\Queue\Utils
  */
 interface FailedJobRepositoryInterface
 {

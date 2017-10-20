@@ -1,14 +1,14 @@
 <?php
 
-namespace PP\Component\Queue\Connector;
+namespace Printplanet\Component\Queue\Connector;
 
-use PP\Component\Queue\Type\QueueInterface;
-use PP\Component\Container\Container;
+use Printplanet\Component\Queue\Type\QueueInterface;
+use Printplanet\Component\Container\Container;
 
 /**
  * Interface ConnectorInterface
  *
- * @package PP\Component\Queue\Connectors
+ * @package Printplanet\Component\Queue\Connectors
  */
 interface ConnectorInterface
 {

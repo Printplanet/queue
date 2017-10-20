@@ -1,15 +1,15 @@
 <?php
 
-namespace PP\Component\Queue\Job;
+namespace Printplanet\Component\Queue\Job;
 
-use PP\Component\Queue\Entity\DatabaseQueueEntityInterface;
-use PP\Component\Queue\Type\DatabaseQueue;
-use PP\Component\Container\Container;
+use Printplanet\Component\Queue\Entity\DatabaseQueueEntityInterface;
+use Printplanet\Component\Queue\Type\DatabaseQueue;
+use Printplanet\Component\Container\Container;
 
 /**
  * Class DatabaseJob
  *
- * @package PP\Component\Queue\Jobs
+ * @package Printplanet\Component\Queue\Jobs
  */
 class DatabaseJob extends Job implements JobsInterface
 {

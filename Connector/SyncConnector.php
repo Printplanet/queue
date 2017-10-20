@@ -1,15 +1,15 @@
 <?php
 
-namespace PP\Component\Queue\Connector;
+namespace Printplanet\Component\Queue\Connector;
 
-use PP\Component\Queue\Type\SyncQueue;
-use PP\Component\Container\Container;
-use PP\Component\Events\Dispatcher;
+use Printplanet\Component\Queue\Type\SyncQueue;
+use Printplanet\Component\Container\Container;
+use Printplanet\Component\Events\Dispatcher;
 
 /**
  * Class SyncConnectors
  *
- * @package PP\Component\Queue\Connectors
+ * @package Printplanet\Component\Queue\Connectors
  */
 class SyncConnector implements ConnectorInterface
 {

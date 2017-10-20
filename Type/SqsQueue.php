@@ -1,14 +1,14 @@
 <?php
 
-namespace PP\Component\Queue\Type;
+namespace Printplanet\Component\Queue\Type;
 
 use Aws\Sqs\SqsClient;
-use PP\Component\Queue\Job\SqsJob;
+use Printplanet\Component\Queue\Job\SqsJob;
 
 /**
  * Class SqsQueue
  *
- * @package PP\Component\Queue\Types
+ * @package Printplanet\Component\Queue\Types
  */
 class SqsQueue extends Queue implements QueueInterface
 {

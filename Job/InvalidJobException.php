@@ -1,11 +1,11 @@
 <?php
 
-namespace PP\Component\Queue\Job;
+namespace Printplanet\Component\Queue\Job;
 
 /**
  * Class InvalidJobException
  *
- * @package PP\Component\Queue\Jobs
+ * @package Printplanet\Component\Queue\Jobs
  */
 class InvalidJobException extends \Exception
 {

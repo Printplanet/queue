@@ -1,13 +1,13 @@
 <?php
 
-namespace PP\Component\Queue\Exception;
+namespace Printplanet\Component\Queue\Exception;
 
 use Exception;
 
 /**
  * Class MaxAttemptsExceededException
  *
- * @package PP\Component\Queue\Exception
+ * @package Printplanet\Component\Queue\Exception
  */
 class MaxAttemptsExceededException extends \RuntimeException
 {

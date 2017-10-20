@@ -1,18 +1,18 @@
 <?php
 
-namespace PP\Component\Queue\Type;
+namespace Printplanet\Component\Queue\Type;
 
-use PP\Component\Utils\Str\Collection;
-use PP\Component\Queue\Entity\DatabaseQueueEntityInterface;
-use PP\Component\Queue\Job\DatabaseJob;
-use PP\Component\Queue\Job\JobsInterface;
-use PP\Component\Queue\Repository\DatabaseQueueRepositoryInterface;
-use PP\Component\Queue\Exception\InvalidPayloadException;
+use Printplanet\Component\Support\Collection;
+use Printplanet\Component\Queue\Entity\DatabaseQueueEntityInterface;
+use Printplanet\Component\Queue\Job\DatabaseJob;
+use Printplanet\Component\Queue\Job\JobsInterface;
+use Printplanet\Component\Queue\Repository\DatabaseQueueRepositoryInterface;
+use Printplanet\Component\Queue\Exception\InvalidPayloadException;
 
 /**
  * Class DatabaseQueue
  *
- * @package PP\Component\Queue\Type
+ * @package Printplanet\Component\Queue\Type
  */
 class DatabaseQueue extends Queue implements QueueInterface
 {

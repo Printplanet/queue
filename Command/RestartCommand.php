@@ -1,6 +1,6 @@
 <?php
 
-namespace PP\Component\Queue\Command;
+namespace Printplanet\Component\Queue\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Psr\SimpleCache\CacheInterface;
@@ -10,7 +10,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 /**
  * Class RestartCommand
  *
- * @package PP\Component\Queue\Command
+ * @package Printplanet\Component\Queue\Command
  */
 class RestartCommand extends Command
 {

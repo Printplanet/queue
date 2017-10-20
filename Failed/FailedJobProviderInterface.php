@@ -1,6 +1,6 @@
 <?php
 
-namespace PP\Component\Queue\Failed;
+namespace Printplanet\Component\Queue\Failed;
 
 interface FailedJobProviderInterface
 {

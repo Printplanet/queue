@@ -1,13 +1,13 @@
 <?php
 
-namespace PP\Component\Queue\Job;
+namespace Printplanet\Component\Queue\Job;
 
-use PP\Component\Container\Container;
+use Printplanet\Component\Container\Container;
 
 /**
  * Class SyncJob
  *
- * @package PP\Component\Queue\Jobs
+ * @package Printplanet\Component\Queue\Jobs
  */
 class SyncJob extends Job implements JobsInterface
 {
