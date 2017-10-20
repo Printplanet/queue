@@ -2,6 +2,8 @@
 
 namespace Printplanet\Component\Queue\Job;
 
+use Printplanet\Component\Queue\PendingDispatch;
+use Printplanet\Component\Queue\PendingChain;
 
 /**
  * Class InteractsWithQueueJob
