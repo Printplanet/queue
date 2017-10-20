@@ -153,7 +153,7 @@ abstract class Queue
     {
         return array(
             'displayName' => $this->getDisplayName($job),
-            'job' => 'PP\Component\Queue\CallQueuedHandler@call',
+            'job' => 'Printplanet\Component\Queue\CallQueuedHandler@call',
             'maxTries' => $this->getMaxTries($job),
             'timeout' => $this->getTimeout($job),
             'timeoutAt' => $this->getJobExpiration($job),
