@@ -14,6 +14,7 @@ use Printplanet\Component\Container\Container as Container;
  */
 abstract class Queue
 {
+
     /**
      * The IoC container instance.
      *
