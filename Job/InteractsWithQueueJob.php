@@ -46,7 +46,7 @@ abstract class InteractsWithQueueJob
      *
      * @var array
      */
-    public $chained = [];
+    public $chained = array();
 
     /**
      * Get the number of times the job has been attempted.
@@ -197,9 +197,10 @@ abstract class InteractsWithQueueJob
      */
     public function dispatchNextJobInChain()
     {
+        $me = $this;
         if (! empty($this->chained)) {
-            dispatch(tap(unserialize(array_shift($this->chained)), function ($next) {
-                $next->chained = $this->chained;
+            dispatch(tap(unserialize(array_shift($this->chained)), function ($next) use($me) {
+                $next->chained = $me->chained;
             }));
         }
     }
