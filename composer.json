@@ -30,7 +30,10 @@
   "autoload": {
     "psr-4": {
       "Printplanet\\Component\\Queue\\": ""
-    }
+    },
+    "files": [
+      "helpers.php"
+    ]
   },
   "extra": {
     "branch-alias": {
