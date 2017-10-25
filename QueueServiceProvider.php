@@ -13,8 +13,6 @@ use Printplanet\Component\Queue\Connector\SqsConnector;
 use Printplanet\Component\Queue\Connector\SyncConnector;
 use Printplanet\Component\Queue\Failed\DatabaseFailedJobProvider;
 use Printplanet\Component\Queue\Failed\NullFailedJobProvider;
-use Printplanet\Component\Queue\Listener;
-use Printplanet\Component\Queue\Worker;
 use Printplanet\Component\Queue\Manager as QueueManager;
 use Printplanet\Component\Support\ServiceProvider;
 
