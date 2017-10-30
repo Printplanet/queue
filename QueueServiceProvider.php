@@ -212,7 +212,8 @@ class QueueServiceProvider extends ServiceProvider
         $me = $this;
 
         $this->app->singleton('queue.failer', function ($app) use($me) {
-            $config = $app['config']['queue.failed'];
+
+            $config = $app['queue.configuration']['failed'];
 
             return isset($config['table'])
                 ? $me->databaseFailedJobProvider($config)
@@ -226,7 +227,7 @@ class QueueServiceProvider extends ServiceProvider
      * @param  array  $config
      * @return DatabaseFailedJobProvider
      */
-    protected function databaseFailedJobProvider($config)
+    public function databaseFailedJobProvider($config)
     {
         return new DatabaseFailedJobProvider(
             $this->app['db'], $config['database'], $config['table']
